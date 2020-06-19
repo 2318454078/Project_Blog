@@ -52,7 +52,8 @@ h1 {
   margin: 0;
   padding: 40px 0 0 40px;
   color: #999898;
-  font: bold 36px/1.2em Arial, Helvetica, sans-serif;
+  font: bold 36px/1.2em Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
+  Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: -2px;
 }
@@ -96,7 +97,8 @@ h1 small {
   margin: 0;
   padding: 20px 0;
   color: #3f3f3f;
-  font: bold 16px Arial, Helvetica, sans-serif;
+  font: bold 16px Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
+  Arial, sans-serif;
   text-decoration: none;
 }
 .menu ul li a span {
@@ -516,4 +518,29 @@ h1 small {
   color: #fff;
   float: left;
   font: normal 12px Arial, Helvetica, sans-serif;
+}
+/********** 欢迎页 **********/
+#welcome {
+  width: 100%;
+  margin: 30px;
+  padding: 10px;
+  float: left;
+}
+#welcome button{
+  align-content: center;
+  width: 10%;  
+  margin: 0 0 0 11.5%;
+  padding: 8px;  
+  background-color: #e76610;  
+  border-color: #e76610;  
+  color: #fff;  
+  -moz-border-radius: 10px;  
+  -webkit-border-radius: 10px;  
+  border-radius: 10px; /* future proofing */  
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */  
+  text-align: center;  
+  vertical-align: middle;  
+  border: 1px solid transparent;  
+  font-weight: 900;  
+  font-size:125%
 }
